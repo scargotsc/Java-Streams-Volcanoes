@@ -8,9 +8,11 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.net.URL;
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
+import java.util.stream.Collectors;
+
+import static java.util.stream.Collectors.counting;
+import static java.util.stream.Collectors.groupingBy;
 
 public class VolcanoAnalyzer {
 
@@ -35,6 +37,22 @@ public class VolcanoAnalyzer {
         } else {
             return new File(resource.getFile());
         }
+
+    }
+
+    public void getMostCommonType(){
+
+        // this gets the count of each type
+        Map<String, Long> typeCount = volcanoes.stream().collect( groupingBy( Volcano::getType, counting() ));
+
+        //Get the type with more repetitions
+         String mostCommonType = typeCount.entrySet()
+                .stream()
+                .max(Map.Entry.comparingByValue())
+                .map(Map.Entry::getKey)
+                .orElse(null);
+
+        System.out.println( mostCommonType  + " " + typeCount.get(mostCommonType) );
 
     }
 
