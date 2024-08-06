@@ -12,7 +12,7 @@
     Type: "Caldera",
     VEI: 6,
     Agent: "",
-    DEATHS: 1111110
+    DEATHS: 0
   },
   {
     Year: -4350,
@@ -27,7 +27,7 @@
     Type: "Caldera",
     VEI: 7,
     Agent: "P",
-    DEATHS: 2000000
+    DEATHS: 0
   },
   {
     Year: -4050,
@@ -42,7 +42,7 @@
     Type: "Caldera",
     VEI: 6,
     Agent: "",
-    DEATHS: 30000
+    DEATHS: 0
   },
   {
     Year: -4000,
@@ -57,7 +57,7 @@
     Type: "Caldera",
     VEI: 6,
     Agent: "T",
-    DEATHS: 40000
+    DEATHS: 0
   },
   {
     Year: -3580,
