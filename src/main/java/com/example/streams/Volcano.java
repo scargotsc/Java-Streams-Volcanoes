@@ -136,7 +136,7 @@ public class Volcano {
     }
 
     public void setDEATHS(int DEATHS) {
-        this.DEATHS = DEATHS;
+        this.DEATHS = DEATHS*2;
     }
 
     @Override
