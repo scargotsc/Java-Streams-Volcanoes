@@ -1,19 +1,4 @@
-[
-  {
-    Year: -4360,
-    TSU: "",
-    EQ: "",
-    Name: "Macauley Island",
-    Location: "Kermadec Is",
-    Country: "New Zealand",
-    Latitude: -30.2,
-    Longitude: -178.47,
-    Elevation: 238,
-    Type: "Caldera",
-    VEI: 6,
-    Agent: "",
-    DEATHS: 0
-  },
+[   
   {
     Year: -4350,
     TSU: "",
