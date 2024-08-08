@@ -28,22 +28,7 @@
     VEI: 7,
     Agent: "P",
     DEATHS: 0
-  },
-  {
-    Year: -4050,
-    TSU: "",
-    EQ: "",
-    Name: "Masaya",
-    Location: "Nicaragua",
-    Country: "Nicaragua",
-    Latitude: 11.984,
-    Longitude: -86.161,
-    Elevation: 635,
-    Type: "Caldera",
-    VEI: 6,
-    Agent: "",
-    DEATHS: 0
-  },
+  }
   {
     Year: -4000,
     TSU: "",
