@@ -12043,20 +12043,5 @@
     VEI: null,
     Agent: "T",
     DEATHS: 0
-  },
-  {
-    Year: 2017,
-    TSU: "",
-    EQ: "",
-    Name: "Kilauea",
-    Location: "Hawaiian Is",
-    Country: "United States",
-    Latitude: 19.425,
-    Longitude: -155.292,
-    Elevation: 1222,
-    Type: "Shield volcano",
-    VEI: null,
-    Agent: "",
-    DEATHS: 1
-  }
+  } 
 ]
